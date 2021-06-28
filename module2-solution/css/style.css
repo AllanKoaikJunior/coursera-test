@@ -1,0 +1,61 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+   text-align: center;
+}
+
+section{
+    border: rgb(219, 48, 48) 3px solid;
+    margin:15px 15px;
+    float: right;
+    border-radius: 5px;
+}
+
+section h3{
+    margin-top: .5px;
+    margin-right: .5px;
+    border: rgb(219, 48, 48) 1px das;
+    width: 170px;
+    text-align: center;
+    float: right;
+    border: rgb(219, 48, 48) 1px solid;
+}
+
+section p {
+    margin:35px 15px;
+}
+
+/***** desktop view 990px & above *****/
+@media (min-width:992px){
+   section{
+       float: left;
+       width: 25%;
+       clear: right;
+   }
+
+   
+}
+
+/***** tablet view 768px & 991px *****/
+@media (min-width: 768px) and (max-width: 991px){
+    .s_one{
+        float: left;
+        width: 45%;
+    }
+
+    .s_two{
+        width: 45%;
+    }
+
+}
+
+/***** mobile view 767px & less *****/
+@media (max-width:767px){
+    
+}
